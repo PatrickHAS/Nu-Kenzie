@@ -1,27 +1,26 @@
 .nav-list {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-contents {
-   display: flex;
-   justify-content: space-between;
-    margin-top: 16px;
-    
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
 }
 
 .title-financialSummary {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    display: flex;
-    align-items: center;
-    width: 30%;
-    height: 20px;
-    
-    color: #212529;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 20px;
+
+  color: #212529;
 }
 
 .buttons {
@@ -31,184 +30,182 @@
 }
 
 .buttons button {
-    margin-right: 2px;
+  margin-right: 2px;
 }
 
 button:hover {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-all {
-    box-sizing: border-box;
-    border-style: none;
+  box-sizing: border-box;
+  border-style: none;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-    width: 49px;
-    height: 25px;
+  width: 49px;
+  height: 25px;
 
-    background: #E9ECEF;
+  background: #e9ecef;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 19px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
 }
 
 .btn-all:hover {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-all:focus {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-prohibited {
-    box-sizing: border-box;
-    border-style: none;
+  box-sizing: border-box;
+  border-style: none;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-    width: 59px;
-    height: 25px;
+  width: 59px;
+  height: 25px;
 
-    background: #E9ECEF;
+  background: #e9ecef;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 19px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
 }
 
 .btn-prohibited:hover {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-prohibited:focus {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-expenses {
-    box-sizing: border-box;
-    border-style: none;
-    display: flex;
+  box-sizing: border-box;
+  border-style: none;
+  display: flex;
 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-    width: 69px;
-    height: 25px;
+  width: 69px;
+  height: 25px;
 
-    background: #E9ECEF;
+  background: #e9ecef;
 
-    border-radius: 8px;
+  border-radius: 8px;
 
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 19px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
 }
 
 .btn-expenses:hover {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 .btn-expenses:focus {
-    background: #FD377E;
-    color: white;
-    cursor: pointer;
+  background: #fd377e;
+  color: white;
+  cursor: pointer;
 }
 
 @media (min-width: 400px) {
-    .title-financialSummary {
-        font-size: 16px;
-        height: 40px;
-        width: 30%;
-    }
-    
-    .btn-all {
-        font-size: 14px;
-        width: 69px;
-        height: 40px;
-    }
+  .title-financialSummary {
+    font-size: 16px;
+    height: 40px;
+    width: 30%;
+  }
 
-    .btn-prohibited {
-        font-size: 14px;
-        width: 69px;
-        height: 40px;
-    }
+  .btn-all {
+    font-size: 14px;
+    width: 69px;
+    height: 40px;
+  }
 
-    .btn-expenses {
-        font-size: 14px;
-        width: 69px;
-        height: 40px;
-    }
+  .btn-prohibited {
+    font-size: 14px;
+    width: 69px;
+    height: 40px;
+  }
+
+  .btn-expenses {
+    font-size: 14px;
+    width: 69px;
+    height: 40px;
+  }
 }
 
 @media (min-width: 768px) {
-    .nav-contents {
-        /* margin-top: 38px;
+  .nav-contents {
+    /* margin-top: 38px;
         margin-left: 59px; */
-        height: 40px;
-    }
+    height: 40px;
+  }
 
-    .buttons {
-        justify-content: end;
-    }
-    
-    
-    .btn-all {
-        font-size: 14px;
-        width: 69px;
-        height: 40px;
-    }
+  .buttons {
+    justify-content: end;
+  }
 
-    .btn-prohibited {
-        font-size: 14px;
-        width: 87px;
-        height: 40px;
-        margin-left: 18px;
-    }
+  .btn-all {
+    font-size: 14px;
+    width: 69px;
+    height: 40px;
+  }
 
-    .btn-expenses {
-        font-size: 14px;
-        width: 92px;
-        height: 40px;
-        margin-left: 18px;
-    }
+  .btn-prohibited {
+    font-size: 14px;
+    width: 87px;
+    height: 40px;
+    margin-left: 18px;
+  }
+
+  .btn-expenses {
+    font-size: 14px;
+    width: 92px;
+    height: 40px;
+    margin-left: 18px;
+  }
 }
 
-
 @media (min-width: 955px) {
-    .nav-contents {
-        margin-top: 38px;
-        margin-left: 59px;
-        height: 40px;
-    }
+  .nav-contents {
+    margin-top: 38px;
+    margin-left: 59px;
+    height: 40px;
+  }
 }
