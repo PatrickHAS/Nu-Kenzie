@@ -28,7 +28,6 @@ function Form({
                 type="text"
                 placeholder="Digite aqui sua descrição"
                 required
-                value={descriptionValue}
                 onChange={(event) => setDescriptionValue(event.target.value)}
               ></input>
               <p>Ex: Compras de roupas</p>

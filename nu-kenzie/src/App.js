@@ -12,6 +12,17 @@ function App() {
   const [prohibited, setProhibited] = useState(listTransactions);
 
   function addList(newList) {
+    if (newList.value === "" && newList.description === "") {
+      return alert("Informe uma descrição e um valor");
+    }
+
+    if (newList.description === "") {
+      return alert("Informe uma descrição");
+    }
+
+    if (newList.value === "") {
+      return alert("Informe um valor");
+    }
     setListTransactions([...listTransactions, newList]);
     setProhibited([...prohibited, newList]);
   }
